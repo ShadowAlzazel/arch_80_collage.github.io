@@ -1,3 +1,3 @@
-# arch_80_collage.github.io
+# Arch 80 Project Collage
 
-# My Project for Arch 80
+My Project for Arch 80 Class
