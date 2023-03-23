@@ -24,9 +24,16 @@ body {
     align-items: center;
 }
 
-#image-track > .image {
+#image-track > .content > .image {
     width: 40vmin;
-    height: 56vmin;
+    height: 60vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+#image-track > .content > .image-details {
+    width: 40vmin;
+    height: 0vmin;
     object-fit: cover;
     object-position: center;
 }
@@ -41,15 +48,36 @@ body {
     transition: opacity 400ms ease;
 }
 
-.image:hover {
-    opacity: 0.8;
-}
-
-.image-overlay {
+.image-details {
+    bottom: 0;
     text-align: center;
-    padding: 15%;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 350ms ease;
 }
 
+.content:hover .image-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.image-details h3 {
+    color: aquamarine;
+    font-weight: 500;
+    font-size: clamp(3rem, 4vw, 4rem);
+    font-family: monospace;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.2em;
+}
+
+.image-details p {
+    color:aliceblue;
+    font-size: clamp(2rem, 4vw, 4rem);
+    font-family: monospace;
+}
 
 #link-menu {
     position: fixed;
