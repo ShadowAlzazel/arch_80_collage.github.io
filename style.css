@@ -9,12 +9,12 @@ body {
 #container {
     justify-content: center;
     color: aliceblue;
-    font-size: 65px;
+    font-size: 15px;
     font-family: monospace;
     text-align: center;
 
     background-color: rgba(255, 255, 255, 0.02);
-    border: 7px solid aquamarine;
+    border: 3px solid aquamarine;
     border-radius: 10px;
 
     display: flex;
@@ -26,7 +26,7 @@ body {
 
 #image-track > .content > .image {
     width: 40vmin;
-    height: 60vmin;
+    height: 62vmin;
     object-fit: cover;
     object-position: center;
 }
@@ -67,7 +67,7 @@ body {
 .image-details h3 {
     color: aquamarine;
     font-weight: 500;
-    font-size: clamp(3rem, 4vw, 4rem);
+    font-size: x-large;
     font-family: monospace;
     letter-spacing: 0.15em;
     margin-bottom: 0.2em;
@@ -75,13 +75,13 @@ body {
 
 .image-details p {
     color:aliceblue;
-    font-size: clamp(2rem, 4vw, 4rem);
+    font-size: large;
     font-family: monospace;
 }
 
 #link-menu {
     position: fixed;
-    height: 12%;
+    height: 7%;
     right: 3%;
     bottom: 100px;
     display: flex;
@@ -102,7 +102,7 @@ body {
 
 .link-item {
     color: aquamarine;
-    font-size: clamp(2rem, 4vw, 4rem);
+    font-size: large;
     font-family: monospace;
 
     display: block;
