@@ -13,7 +13,7 @@ window.onmousemove = clicked => {
     if (track.dataset.mouseDownAt === "0") return;
 
     const mouseDelta = parseFloat(track.dataset.mouseDownAt) - clicked.clientX,
-        maxDelta = window.innerWidth / 2;
+        maxDelta = window.innerWidth / 0.5;
 
     const percentage = (mouseDelta / maxDelta) * -100,
         nextPercentageRaw = parseFloat(track.dataset.prevPercentage) + percentage,
