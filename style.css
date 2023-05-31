@@ -20,7 +20,7 @@ body {
     display: flex;
     margin: auto;
     margin-top: 2%;
-    width: 70%;
+    width: 50%;
     align-items: center;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .image-details {
-    bottom: 0;
+    margin-top: -5%;
     text-align: center;
     padding-left: 1em;
     padding-right: 1em;
@@ -70,21 +70,20 @@ body {
     font-size: x-large;
     font-family: monospace;
     letter-spacing: 0.15em;
-    margin-bottom: 0.2em;
 }
 
 .image-details p {
+    margin-top: -4%;
     color:aliceblue;
-    font-size: large;
+    font-size: 90%;
     font-family: monospace;
 }
 
 #link-menu {
-    position: fixed;
-    height: 7%;
-    right: 3%;
-    bottom: 100px;
+    top: 1%;
     display: flex;
+    position: absolute;
+    right: 3%;
     align-items: center;
 }
 
@@ -107,6 +106,6 @@ body {
 
     display: block;
     text-decoration: none;
-    padding: clamp(0.25rem, 0.5vw, 1rem) 0rem;
+    padding: clamp(0.3rem, 0.4vw, 1rem) 0rem;
     transition: opacity 400ms ease;
 }
