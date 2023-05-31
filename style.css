@@ -76,6 +76,7 @@ body {
     margin-top: -4%;
     color:aliceblue;
     font-size: 90%;
+    padding: clamp(0.3rem, 0.4vw, 1rem) 0rem;
     font-family: monospace;
 }
 
@@ -106,6 +107,6 @@ body {
 
     display: block;
     text-decoration: none;
-    padding: clamp(0.3rem, 0.4vw, 1rem) 0rem;
+    padding: 1% 0rem;
     transition: opacity 400ms ease;
 }
